@@ -27,7 +27,8 @@ html{
     background-color: #152733;
     height: 50px;
 }
-.main-menu li{
+
+.main-menu .items ul li{
     color: white;
     font-size: 12px;
     display: inline-block;
@@ -153,15 +154,32 @@ h1{
 span.menu-numbers{
     background-color: #344348;
     color: white;
-    width: 40px;
     height: 13px;
     border: 1px solid #344348;
     border-radius: 7px;
     font-size: 8px;
+    padding: 5px;
 }
+
+.facebook{
+    float: right;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.items ul{
+    float: left;
+}
+
 
 @media only screen and (max-width: 480px) {
     .container{
-        width: 320px;
+        width: 480px;
     }
+    .header-image img{
+        height: 300px;
+        width: 480px;
+        margin-top: 15px;
 }
+
