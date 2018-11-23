@@ -116,10 +116,20 @@ h1{
 .main-gallery ul li{
     display: inline-block;
     list-style: none;
+
 }
 
 .main-gallery ul li img{
-    width: 180px;
+    width: 176px;
     height: 100px;
-    border-right: 1px solid;
+    box-shadow: 5px 10px #888888;
 }
+
+#gallery-header{
+    font-size: 25px;
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+
