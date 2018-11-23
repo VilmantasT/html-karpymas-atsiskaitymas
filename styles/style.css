@@ -8,16 +8,6 @@ html{
     background-color: #eeeeee;
 }
 
-*{
-    padding:0px;
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-}
-
-html{
-    background-color: #eeeeee;
-}
-
 .container{
     width: 720px;
     margin: auto;
@@ -48,6 +38,7 @@ html{
 .header-image img{
     height: 300px;
     width: 720px;
+    margin-top: 15px;
 }
 
 .company-info{
@@ -61,6 +52,7 @@ html{
     background-color: #ffffff;
     display: inline-block;
     margin-right: 11px;
+
 }
 .text-content:last-of-type{
     margin-right: 0px;
@@ -132,4 +124,44 @@ h1{
     text-align: center;
 }
 
+.foot{
+    background-color: white;
+    height: 50px;
+    margin-top: 45px;
+}
 
+.foot-text{
+    font-size: 12px;
+    color: black;
+    line-height: 50px;
+}
+
+#right{
+    float: right;
+    color: #aac284;
+    margin-right: 15px;
+}
+
+.foot-text{
+    display: inline-block;
+}
+
+#left{
+    margin-left: 15px;
+}
+
+span.menu-numbers{
+    background-color: #344348;
+    color: white;
+    width: 40px;
+    height: 13px;
+    border: 1px solid #344348;
+    border-radius: 7px;
+    font-size: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+    .container{
+        width: 320px;
+    }
+}
