@@ -8,6 +8,16 @@ html{
     background-color: #eeeeee;
 }
 
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    background-color: #eeeeee;
+}
+
 .container{
     width: 720px;
     margin: auto;
@@ -34,6 +44,70 @@ html{
     line-height: 50px;
     margin-left: 30px;
 }
-.facebook-logo{
+
+.header-image img{
+    height: 300px;
+    width: 720px;
+}
+
+.company-info{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text-content{
+    width: 230px;
+    height: 160px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-right: 11px;
+}
+.text-content:last-of-type{
+    margin-right: 0px;
+}
+
+.text-content p{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 20px;
+    display: block;
+    margin: 5px;
+}
+
+.main-info ul{
+    background-color: white;
+    height: 270px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.text-content2{
+    float: left;
+    margin: 15px;
+    width: 400px;
+    height: 220px;
+}
+
+.navigation ul{
+
+    background-color: #e8e8e8;
+    width: 220px;
+    height: 200px;
+}
+
+.navigation{
     float: right;
+}
+
+.navigation ul li{
+    list-style: none;
+    line-height: 45px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+
 }
